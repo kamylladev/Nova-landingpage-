@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+
+
+
+body{ background-color: rgb(37, 49, 53);
+color: white;
+max-width: 1200px;
+margin: 0 auto;
+padding: 10px;
+
+
+
+
+}
+
+
+li{ display: inline-block;
+margin: 20px;
+}
+
+ 
+
+
+
+
+img{ width: 400px;
+height: 400px;}
+
+header{ display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+#title{ flex-direction: column;
+    line-height: 10px;
+
+}
+ 
+h1{ font-weight: 200;}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px
+}
+
+h2{ 
+    font-size: 50px;
+    line-height: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+span{
+    color:   rgb(171, 174, 221);
+     
+}
+
+p{ line-height: 20px;
+max-width: 500px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+
+a{
+
+    color: whitesmoke;
+}
+
+a:hover{ color: rgb(167, 167, 235);
+transition: 0.2s;
+}
+
+
+#ins{
+    border: 2px solid rgb(159, 159, 196);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#ins:hover{
+    background-color: rgb(177, 177, 225);
+    color: rgb(0, 49, 133);
+}
+
+
+
+
+form{ display: flex;
+
+flex-direction: column;
+width: 70%;
+}
+
+input{ margin-top: 20px;
+height: 20px;
+padding: 15px;
+border-radius: 20px;
+border: none;
+font-size: 15px;
+
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(72, 72, 76);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    color:   rgb(14, 14, 35);
+    background-color:   rgb(151, 151, 182);
+    cursor: pointer;
+}
+
